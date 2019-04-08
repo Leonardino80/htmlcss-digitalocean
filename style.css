@@ -1,0 +1,89 @@
+/* .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+background-color: white;
+
+.white{
+  background-color: white;
+
+} */
+
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.after-nav  {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+  border-bottom:1px solid black;
+}
+
+.right-nav {
+  float: right;
+}
+
+.right-nav ul {
+  text-align: right;
+}
+
+.right-nav ul li {
+  display: inline-block;
+}
+
+.btn-info{
+  color: #fff;
+  background-color: transparent;
+  border-color: #46b8da;
+}
+
+#custom-btn > li > a:hover{
+  color:#333;
+  background-color: #5bc0de !important;
+  font-weight: bold;
+}
+
+#custom-btn:hover{
+  color: white;
+  background-color: #5bc0de;
+  font-weight: bold;
+}
+
+.welcome-background-image{
+  background-image: url('welcome-bg.jpg');
+  color: white;
+  background-size: cover;
+  margin-top:  130px;
+  padding: 40px;
+}
+
+.form-card{
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.form-card h2{
+  color: black;
+  margin: 0px 0px 20px;
+}
+
+.relative{
+  position: relative;
+}
+
+.relative > div {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-grey {
+  padding: 60px 30px;
+
+}
+
+.doc-list img {
+  background-color:lightgrey;
+
+}
